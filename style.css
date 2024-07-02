@@ -12,7 +12,7 @@ body{
 header{
     background-color: white;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
     
@@ -81,6 +81,45 @@ span{
     font-size: x-large;
     height: 3.5rem;
     width: 12rem;
+    border: 0.15rem transparent;
+    border-radius: 1rem;
     background-color: transparent;
     cursor: pointer;
+    background-color: #78d391;
+    font-weight: bolder;
+    color: white;
 }
+
+.btn-whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
+}
+
+footer{
+    height: 8rem;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem; 
+    border: 0.01rem solid #228a4e;
+    border-radius: 1rem;
+}
+
+p{
+    text-align: center;
+}
+
