@@ -15,7 +15,6 @@ header{
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 .config-img-header{
@@ -43,7 +42,6 @@ header{
     justify-content: space-evenly; 
     display: flex;
     margin-top: 2rem;
-    
 }
 
 .config-blocos-pix-money{
@@ -51,7 +49,6 @@ header{
     border-radius: 1rem;
     text-align: center;
     padding-top: 1.5rem;
-
 }
 
 span{
@@ -72,7 +69,6 @@ span{
     display: flex;    
     width: 30rem;
     padding: 2rem;
-    
 }
 
 .config-button-pix-money{
@@ -123,3 +119,80 @@ p{
     text-align: center;
 }
 
+/* Responsividade */
+@media (max-width: 1024px) {
+    .config-img-header {
+        width: 16rem;
+    }
+
+    .type-h1 {
+        font-size: x-large;
+    }
+
+    .type-h2 {
+        font-size: large;
+    }
+
+    .config-list-pix-money {
+        width: 24rem;
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .config-img-header {
+        width: 12rem;
+    }
+
+    .config-img-header-imtermedium {
+        width: 10rem;
+    }
+
+    .type-h1 {
+        font-size: large;
+    }
+
+    .type-h2 {
+        font-size: medium;
+    }
+
+    .config-list-pix-money {
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .line-image-pix-money {
+        flex-direction: column;
+    }
+
+    .config-button-pix-money {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        margin: auto 1rem;
+    }
+
+    .config-img-header {
+        width: 10rem;
+    }
+
+    .type-h1 {
+        font-size: medium;
+    }
+
+    .type-h2 {
+        font-size: small;
+    }
+
+    .card-pix-money {
+        width: 8rem;
+    }
+
+    .config-list-pix-money {
+        padding: 0.5rem;
+    }
+}
